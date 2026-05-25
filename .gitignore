@@ -1,0 +1,47 @@
+# Dependency directories
+/vendor/
+/node_modules/
+
+# Environment files
+.env
+.env.*
+
+# Logs and runtime files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+*.swp
+*~
+
+# IDE/editor folders
+/.vscode/
+/.idea/
+
+# Composer / PHP
+/composer.lock
+/*.phar
+
+# Build / temporary files
+/dist/
+/build/
+
+# Docker / local environment
+docker-compose.override.yml
+
+# Security keys and private certificates
+*.pem
+*.key
+*.p12
+
+# Database and export files
+*.sql
+
+# Generated files
+*.cache
+*.tmp
