@@ -1,1 +1,22 @@
+# Android Studio / Gradle ignores
+/.gradle/
+/local.properties
+/build/
+/app/build/
+/.idea/
+*.iml
+captures/
+output.json
+
+# Generated native build files
+/.externalNativeBuild/
+/.cxx/
+
+# Signing keys
+*.jks
+*.keystore
+
+# Packages
+*.apk
+*.aab
 /build
